@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>exoperate - IT Solutions For You</title>
+    <link rel="icon" href="LOGO/favicon.png">
+    <link rel="stylesheet" href="other.css">
+</head>
+
+<body>
+    <canvas id="canvas"></canvas>
+
+    <div class="scrollbar">
+        <div class="content">
+            <!-- Website content here -->
+
+            <div class="container">
+                <!-- Top bar -->
+                <div class="spacer">
+                    <div class="backgr">
+                        <div class="topbar">
+                            <div class="logo", onclick="redirectToMain()">
+                                <img src="LOGO/LogoMap_1024_2.png" alt="logo" width="55" height="55">
+                                <h2>exoperate</h2>
+                            </div>
+                            <script>
+                                function redirectToMain() {
+                                    window.location.href = "index.html"
+                                }
+                            </script>
+                            <div class="menu">
+                                <div class="menu-item">
+                                    <p><a href="index.html">HOME</a></p>
+                                </div>
+                                <div class="menu-item">
+                                    <p>ABOUT</p>
+                                </div>
+                                <div class="menu-item">
+                                    <p>CONTACT</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Main content -->
+                <div class="bigbox">
+                    <section class = "textspace">
+                        <section class = "photo">
+                            <img src="./media/cpp1.png" alt="photo" width="700" height="500">
+                            <!-- <img src="./grid/sq2.png" alt="photo" width="300" height="300"> -->
+                        </section>
+                        <section class = "textspacer"></section>
+                        <section class = "textpart">
+                            <h2>C++ Development</h2>
+                            <p>     I am passionate about programming, particularly in the C++ language. 
+                            With a solid foundation in C++, 
+                            I have honed my skills and developed a deep understanding of its intricacies. 
+                            I find immense satisfaction in creating efficient and robust solutions through coding.
+                             Whether it's building complex algorithms, developing software applications, or optimizing performance,
+                              I am constantly driven to push the boundaries of what can be achieved with C++. I am always eager to expand my knowledge by exploring new libraries, frameworks, and best practices, as I believe that continuous learning is crucial in the ever-evolving field of programming. Through my dedication, problem-solving abilities, and meticulous attention to detail, I strive to deliver high-quality code that meets the demands of modern software development. Programming in C++ is not just a hobby or a career path for me; it's a true passion that fuels my desire to create innovative and impactful solutions.
+                            </p>
+                            <p></p>
+                              <h2>C++ App Development with the Electron Framework</h2>
+                            <p>     I have created a program called FormatC++ that aims to simplify code formatting for C++ developers. It is designed as a user-friendly Electron app with an intuitive interface. The main purpose of FormatC++ is to take unformatted code containing enumerations and transform it into a format that can be easily copied and used in any development environment.
+                                <h3>Currently, FormatC++ offers the following functionalities:</h3>
+                                <ul>
+                                    <li>Recognition and removal of numbers and spaces before the code.</li>
+                                    <li>Identification of brackets and appropriate formatting.</li>
+                                    <li>Deletion of empty lines for a cleaner code appearance.</li>
+                                </ul>
+                                With FormatC++, you can quickly and effortlessly format your C++ code, making it more readable and organized.</p>
+                                <button onclick="redirectToPage()", class="textpartB">
+                                    <h4>Github link</h4>
+                                </button>
+                                <script>
+                                    function redirectToPage() {
+                                        window.location.href = "https://github.com/PenguinPops/Format-C-UI-app";
+                                    }
+                                </script>
+                            </section>
+                    </section>
+                </div>
+
+
+
+            </div>
+            <!-- Footer -->
+            <div class="footer">
+                <div class="backgr">
+                    <div class="topbar">
+                        <div class="left">
+                            <img id="mail" src="envelope.png" width="20" height="20">
+                            <p><b>msoltys.biz@gmail.com</b></p>
+                            <img id="git" src="github.png" width="20" height="20">
+                            <p><a href="https://github.com/PenguinPops">github.com/PenguinPops</a></p>
+                        </div>
+
+                        <div class="right">
+                            <p>© 2023 exoperate</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <script src="script.js"></script>
+</body>
+
+</html>

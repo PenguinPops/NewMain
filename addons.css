@@ -1,0 +1,55 @@
+.new-container {
+    width: 100%;
+    height: 200%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(44, 44, 44, 0.7);
+    font-family: 'NewFont', 'Helvetica', 'Segoe UI Light', 'Segoe UI', 'Segoe UI Web Light', 'Segoe UI Web Regular', 'Segoe UI Symbol', 'Helvetica Neue', 'BBAlpha Sans', 'S60 Sans', Arial, sans-serif;
+}
+
+.textspace-wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2%;
+    background: linear-gradient(45deg, #79059c, #db0fd1d3);
+    border-radius: 20px;
+}
+
+.textparagraphs {
+    width: 90%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, .5);
+    margin: 10px 0px 10px 0px;
+    padding: 0 2%;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.photo-container {
+    width: 100%;    
+    /* background-color: red; */
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10%;
+    padding: 2%;
+    min-height: 1200px;
+}
+
+.photo-container img {
+    border-radius: 15px;
+    margin: 0 auto 0 auto;
+    
+}
+
+.textparagraphs h2{
+    text-align: center;
+}
